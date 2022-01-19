@@ -167,6 +167,11 @@ main{
             text-align: center;
             margin-bottom: 10px;
         }
+        &-box{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
     }
 }
 .shelf{
@@ -519,8 +524,6 @@ footer{
             }
         }
     }
-
-
 
     main{
         .banner{
