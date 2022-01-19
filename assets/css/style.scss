@@ -277,6 +277,9 @@ main{
             width: 385px;
         }
     }
+    &-img{
+        width: 70%;
+    }
 }
 
 footer{
@@ -494,10 +497,7 @@ footer{
 }
 
 @media screen and (max-width: 780px) {
-    .header {
-        display: none;
-    }
-    .popup{
+    .header,.collection,.popup, footer {
         display: none;
     }
     
@@ -529,6 +529,7 @@ footer{
     }
 
     main{
+        overflow: hidden;
         .banner{
             height: 320px;
             &-item{

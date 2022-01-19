@@ -378,6 +378,10 @@ main .brands-box {
   width: 385px;
 }
 
+.collection-img {
+  width: 70%;
+}
+
 footer {
   margin-top: 75px;
 }
@@ -670,7 +674,7 @@ footer .bottomBar-box img {
 }
 
 @media screen and (max-width: 780px) {
-  .header {
+  .header, .collection, .popup, footer {
     display: none;
   }
   .headerMob {
@@ -710,6 +714,9 @@ footer .bottomBar-box img {
   }
   .headerMob .content img {
     margin: 0 12px;
+  }
+  main {
+    overflow: hidden;
   }
   main .banner {
     height: 320px;
